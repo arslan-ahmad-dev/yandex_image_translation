@@ -1,0 +1,19 @@
+python -m venv myenv
+
+myenv\Scripts\activate
+
+download and install VS buildtools
+download and install Tesseract-OCR 
+
+pip install --upgrade setuptools wheel
+
+pip install patch-ng
+
+pip install PaddleOCR
+
+pip install --no-cache-dir --force-reinstall PaddleOCR
+
+pip install paddlepaddle
+
+pip install Flask-Reuploaded
+
