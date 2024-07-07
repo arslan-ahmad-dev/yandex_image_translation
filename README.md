@@ -4,6 +4,7 @@ This project translates an image with text from one language to another while ke
 The project uses a Flask API to handle the translation request.
 
 
+
 **Create a Virtual Environment**
 
 python -m venv myenv
@@ -11,9 +12,11 @@ python -m venv myenv
 myenv\Scripts\activate
 
 
+
 **Install Requirements**
 
 pip install -r requirements.txt
+
 
 
 **Example Request using Postman**
@@ -30,5 +33,6 @@ pip install -r requirements.txt
 **source_language**: Enter the source language code (e.g., "fr").
 
 **target_language**: Enter the target language code (e.g., "en").
+
 
 **Click Send.**
